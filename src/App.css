@@ -1,0 +1,221 @@
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+.imgabout {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.sub-info{
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #004975;
+}
+
+.display-30 {
+  font-size: 0.9rem;
+}
+
+.navitem:hover {
+  background-color: #e2dfdf;
+  color: #2d2c2c;
+  border-radius:5px;
+}
+.circle {
+  margin-bottom: 8px;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+}
+.headingOfferingCard {
+  color: #f5f4f5;
+}
+
+#userProductCard{
+  background-color:#f5efe7;
+  border-radius:10px;
+  min-width: 190px;
+  padding: 2px;
+  width: auto;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+}
+#imgdiv{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  border-radius: 5px;
+  overflow: hidden;
+  /* margin-top: 6px; */
+  margin-top: -20px;
+
+  /* margin-top: -20px; */
+  z-index: 1000;
+  width: 80%;
+}
+/* #userProductCard:hover #imgdiv {
+} */
+#userProductCard:hover{
+  transform: translateY(-5px);
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#mobile-number {
+  -moz-appearance: textfield;
+}
+
+#mobile-number::-webkit-outer-spin-button,
+#mobile-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media screen and (max-width: 990px) {
+  .contactform{
+    width: 90%;
+    margin-top: 20px;
+
+  }
+  #contact{
+    margin-top: 70px;
+  }
+  #offeringSection{
+    margin-top:-15px
+  }
+  .headtext {
+    width: 100%;
+  }
+  .headimg{
+    display: none;
+  }
+  .offeringcard {
+    width: 230px;
+    height: 210px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #3e4551;
+
+    /* background: rgb(92, 55, 166);
+background: linear-gradient(43deg, rgba(92, 55, 166, 1) 0%, rgba(235, 176, 157, 1) 92%); */
+    box-shadow: 0 0 15px 0 rgba(234, 132, 48, 0.16), 0 2px 10px 0 rgba(234, 132, 48, 0.16);
+}
+.offeringcontainer {
+  background: #F5F2EB;
+  border-radius: 20%;
+  padding-bottom: 15px;
+}
+
+.offeringContainer {
+  overflow-x: auto;
+  width: 100%;
+
+}
+.paraofferingcard{
+  font-size:2.4vmin;
+  color: #e4e7ea;
+}
+.circle {
+  width: 65px;
+  height: 65px;
+}
+
+}
+@media screen and (min-width: 991px) {
+  .contactform{
+    width: 50%;
+    margin-top: 40px;
+  }
+  #contact{
+    margin-top: 100px;
+  }
+  #offeringSection{
+    margin-top:-209px
+  }
+  .circle {
+    width: 80px;
+    height: 80px;
+}
+  .headtext {
+    width: 60%;
+  }
+  .headimg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .head{
+    text-align: left;
+  }
+  .offeringcard {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #3e4551;
+
+    /* background: rgb(92, 55, 166);
+background: linear-gradient(43deg, rgba(92, 55, 166, 1) 0%, rgba(235, 176, 157, 1) 92%); */
+    box-shadow: 0 20px 15px 0 rgba(238, 107, 0, 0.16), 0 2px 10px 0 rgba(194, 100, 23, 0.16);
+}
+.offeringContainer {
+  overflow-x: auto;
+  width: 100%;
+
+}
+.paraofferingcard{
+  font-size:2.4vmin;
+  color: #e4e7ea;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
