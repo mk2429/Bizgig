@@ -3,7 +3,7 @@ import logo from "../logo.png";
 export default function Navbar() {
   return (
     <div>
-    <nav className="navbar navbar-expand-lg" style={{boxShadow: "0px 4px 6px -1px rgba(0, 0, 0, 0.1)"}}>
+    <nav className="navbar navbar-expand-lg" style={{background:"white",boxShadow: "0px 4px 6px -1px rgba(0, 0, 0, 0.1)"}}>
       <a className="navbar-brand" href="#">
         <img src={logo} alt="Bizgigs" className='mx-4' height="50px" />
       </a>

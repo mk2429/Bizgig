@@ -52,7 +52,7 @@ export default function Contact() {
 
       
   return (
-    <div id='contact' style={{position:"relative"}}>
+    <div id='contact' style={{position:"relative",background:"white"}}>
 
         <h2 className='display-18 display-md-16 display-lg-14 font-weight-700'><span style={{color:"red",marginBottom:"-20px"}}>Let's</span> Collaborate</h2>
     <small id="emailHelp" className="form-text text-muted w-100" style={{marginTop:"-20px"}}>We'll never share your personal information with someone else.</small>

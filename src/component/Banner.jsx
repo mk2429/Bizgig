@@ -3,7 +3,7 @@ import heroImage from '../hero-image.webp';
 
 export default function Banner() {
     return (
-        <div style={{ position: 'relative', zIndex: 2 }}>
+        <div style={{ position: 'relative', zIndex: 2 ,background:"white"}}>
             <div className='d-flex justify-content-center w-100 mt-4 px-4' >
                 <div className='headtext'>
                     <h1 className='head display-2' style={{fontWeight: "bold" }}>
