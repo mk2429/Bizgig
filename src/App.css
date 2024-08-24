@@ -1,3 +1,16 @@
+body {
+  background-color: #ffffff; /* Or your desired background color */
+  color: #000000; /* Or your desired text color */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #ffffff; /* Set to your light mode background color */
+    color: #000000; /* Set to your light mode text color */
+  }
+}
+
 
 .rounded-circle {
   border-radius: 50% !important;
