@@ -35,7 +35,7 @@ export default function Offering() {
                 </div>
                 <div class="d-flex justify-content-between align-items-center flex-column m-2" id="userProductCard">
                     <div id="imgdiv">
-                        <img src="https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2022/11/DM_blog_post_image_03_guetzli.jpg" alt="product image"
+                        <img src="https://digitalcatalyst.in/blog/wp-content/uploads/2022/03/major-components-of-digital-marketing.png" alt="product image"
                             style={{ width: "100%", height: "100px" }} />
                     </div>
                     <h5 className='my-1'>Digital Marketing</h5>

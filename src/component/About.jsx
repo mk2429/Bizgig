@@ -37,7 +37,7 @@ export default function About() {
                     <div class="col-lg-4 d-none d-lg-block">
                         <div class="why-choose-center-image">
 
-                            <img src="https://i.ibb.co/XpQbBRj/creative-gradient-code-logo-23-2148820572-removebg-preview.png" alt="..." class="rounded-circle imgabout" />
+                        <img src="/logo512.png" alt="Logo" className="rounded-circle imgabout" />
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4">

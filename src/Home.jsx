@@ -4,6 +4,7 @@ import Banner from './component/Banner'
 import Offering from './component/Offering'
 import Contact from './component/Contact'
 import About from './component/About'
+import ReviewCard from './component/Review'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner/>
       <Offering/>
       <About/>
+      <ReviewCard/>
       <Contact/>
     </div>
   )
